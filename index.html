@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div class="home">
+ 
+    <div class="row pack">
+            <div class="col-xs-4 card"  style="height:300px;width:500px">
+                <div class="panel panel-default" style="background-color:#008264; overflow: auto;">
+		 <img style="float: right" height="180" width="180" src="{{site.baseurl}}/images/paulmessina.jpg" alt="{{post.title}}">
+ 		  <div class="panel-body">
+                    <h3>THE U.S. D.O.E EXASCALE COMPUTING PROJECT</h3> 
+			<h4>GOALS AND CHALLENGES</h4> 
+			<small>DR. PAUL MESSINA | 01/09/2017</small>
+                    <a href="messina" class="btn btn-primary btn-sm pull-right mt10">>></a>
+                  </div>
+                </div>
+            </div>
+
+ 	 <div class="col-xs-4 card"  style="height:300px;width:500px">
+                <div class="panel panel-default" style="background-color:#006298; overflow: auto;">
+		 <img style="float: right" height="180" width="180" src="{{site.baseurl}}/images/Blue_Waters_Bill_Kramer.jpg" alt="{{post.title}}">
+ 		  <div class="panel-body">
+                    <h3>PETASCALE TO EXTREME SCALES</h3> 
+			<h4>LESSONS AND IMPACTS OF BLUE WATERS</h4> <br>
+			<small>WILLIAM KRAMER | 12/09/2016</small>
+                    	<a href="kramer" class="btn btn-primary btn-sm pull-right mt10">>></a>
+                  </div>
+ 
+                </div>
+            </div>
+        
+	  <div class="col-xs-4 card"  style="height:300px;width:500px">
+                <div class="panel panel-default" style="background-color:#ACA39A; overflow: auto;">
+		 <img style="float: right" height="180" width="180" src="{{site.baseurl}}/images/nicanormoldovan.png" alt="{{post.title}}">
+ 		  <div class="panel-body"  >
+                    <h3 >3D BIOPRINTING AS A BIO- INFORMATIONAL TECHNOLOGY</h3> 
+		<h4>THE IUPUI/IUSM EXPERIENCE</h4> 
+		<small> NICANOR I. MOLDOVAN | 11/11/2016</small>
+                    <a href="moldovan" class="btn btn-primary btn-sm pull-right mt10">>></a>
+
+                  </div>
+		 
+                </div>
+            </div>
+    </div>
+ 
+   </div>
+    
+<div class="row">
+    <div class="col-md-4">  </div>
+    <div class="col-md-4">
+        {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+          {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+          {% else %}
+            <li><span>&laquo; Prev</span></li>
+          {% endif %}
+
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <li class="active"><span><em>{{ page }}</em></span></li>
+            {% elsif page == 1 %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+            {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+            {% endif %}
+          {% endfor %}
+
+          {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+          {% else %}
+            <li><span >Next &raquo;</span></li>
+          {% endif %}
+          </ul>
+        {% endif %}
+
+    </div>
+    <div class="col-md-4">  </div>
+</div>
+</div>

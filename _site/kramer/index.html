@@ -1,0 +1,217 @@
+<!-- Remove the comments to compress html
+
+---
+layout: compress
+--- 
+
+-->
+<!DOCTYPE html>
+<html>
+
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<!-- Begin Jekyll SEO tag v2.1.0 -->
+<title>PETASCALE TO EXTREME SCALES - INTELLIGENT SYSTEMS ENGINEERING COLLOQUIUM SERIES</title>
+<meta property="og:title" content="PETASCALE TO EXTREME SCALES" />
+<meta name="description" content="Abstract Blue Waters, the first sustainable Petascale System and one of the largest and most open systems in the world, has been providing high quality service for over three years. Not only is it a great resource the enables unprecedented research, it is also an experimental platform for the convergence of Extreme Computing and Big Data. This talk will cover the experiences of the Blue Waters project and discuss the successes and challenges in merging widely different workflows on the same system. Finally, it will explore lessons and observations for next generations of Extreme Scale systems." />
+<meta property="og:description" content="Abstract Blue Waters, the first sustainable Petascale System and one of the largest and most open systems in the world, has been providing high quality service for over three years. Not only is it a great resource the enables unprecedented research, it is also an experimental platform for the convergence of Extreme Computing and Big Data. This talk will cover the experiences of the Blue Waters project and discuss the successes and challenges in merging widely different workflows on the same system. Finally, it will explore lessons and observations for next generations of Extreme Scale systems." />
+<link rel="canonical" href="http://localhost:4000/https://iu-ise.github.io/ISE-Colloquium-Series//kramer/" />
+<meta property="og:url" content="http://localhost:4000/https://iu-ise.github.io/ISE-Colloquium-Series//kramer/" />
+<meta property="og:site_name" content="INTELLIGENT SYSTEMS ENGINEERING COLLOQUIUM SERIES" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-12-09T00:00:00-05:00" />
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "BlogPosting",
+"headline": "PETASCALE TO EXTREME SCALES",
+"datePublished": "2016-12-09T00:00:00-05:00",
+"description": "Abstract Blue Waters, the first sustainable Petascale System and one of the largest and most open systems in the world, has been providing high quality service for over three years. Not only is it a great resource the enables unprecedented research, it is also an experimental platform for the convergence of Extreme Computing and Big Data. This talk will cover the experiences of the Blue Waters project and discuss the successes and challenges in merging widely different workflows on the same system. Finally, it will explore lessons and observations for next generations of Extreme Scale systems.",
+"url": "http://localhost:4000/https://iu-ise.github.io/ISE-Colloquium-Series//kramer/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+<style>
+          
+          img{max-width:100%}.mt50{margin-top:50px}.mt20{margin-top:20px}.mt10{margin-top:10px}.container-fluid{background:#900 !important}.navbar-header{margin:1em;text-align:left;height:10em;padding:30px}.navbar-organization{font-family:Benton Sans Condensed Bold;font-weight:900;font-size:1.2em;color:#fff !important}@media screen and (max-width: 600px){.navbar-organization{font-size:1.1em}}.navbar-brand{font-family:Benton Sans Bold;font-weight:900;font-size:1.5em;color:#fff !important}@media screen and (max-width: 600px){.navbar-brand{font-size:1.0em}}.post-meta{color:#828282}.panel{border:none;box-shadow:0px 0px 1px #828282}.panel:hover{box-shadow:0px 0px 6px #828282}footer{border-top:1px solid #e8e8e8}.social{list-style:none;display:inline;margin-left:10px;padding:5px 8px}.social:hover{opacity:0.7}.social img{width:20px}.quora img{width:17px}.facebook img{width:16px}.recent ul{list-style:none;padding:0;text-align:justify}.recent{padding:10px;border:1px solid #e8e8e8}.post-img img{width:100%}.pack{display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;flex-wrap:wrap;-webkit-flex-wrap:wrap}.card{float:none}
+
+</style>  
+
+<link rel="stylesheet" href="https://iu-ise.github.io/ISE-Colloquium-Series//css/bootstrap.min.css">
+<link rel="alternate" type="application/rss+xml" title="INTELLIGENT SYSTEMS ENGINEERING COLLOQUIUM SERIES" href="http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//feed.xml">  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+     <div class="navbar-header">
+      <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>-->
+      <div class="navbar-organization"> The School of Informatics and Computing (SoIC) at Indiana University</a> <br>
+      <a class="navbar-brand" href="https://iu-ise.github.io/ISE-Colloquium-Series//">INTELLIGENT SYSTEMS ENGINEERING COLLOQUIUM SERIES</a>
+     </div> 
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+<!--
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://iu-ise.github.io/ISE-Colloquium-Series//about/">About</a></li>
+        <li><a href="https://iu-ise.github.io/ISE-Colloquium-Series//contact/">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="_blank" href="https://github.com/sharu725/cards">Project</a></li>
+            <li><a href="https://github.com/sharu725/cards/archive/master.zip">Download</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a target="_blank" href="http://blog.webjeda.com/jekyll-themes/">More Themes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div> --> <!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+   
+  
+</nav>
+</header>
+
+
+    <div class="container">
+      <div class="wrapper">
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+ <div class="FeaturedImgBanner" >
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">PETASCALE TO EXTREME SCALES</h1>
+         <!--   <p class="post-meta"><time datetime="2016-12-09T00:00:00-05:00" itemprop="datePublished">Dec 9, 2016</time></p>-->
+                 
+          </header>
+
+	</div>
+          <div class="post-content" itemprop="articleBody">
+            <h2 id="abstract">Abstract</h2>
+<p>Blue Waters, the first sustainable Petascale System and one of the largest and most open systems in the
+world, has been providing high quality service for over three years. Not only is it a great resource the enables
+unprecedented research, it is also an experimental platform for the convergence of Extreme Computing
+and Big Data. This talk will cover the experiences of the Blue Waters project and discuss the successes and
+challenges in merging widely different workflows on the same system. Finally, it will explore lessons and
+observations for next generations of Extreme Scale systems.</p>
+
+<h2 id="william-kramer">William Kramer</h2>
+<p>William Kramer joins CS @ ILLINOIS as a research professor this year.
+Since 2008, he has been with the National Center for Supercomputing
+Applications (NCSA) on the University of Illinois campus, where he is
+the director and principal investigator of the Blue Waters petascale
+supercomputer project.
+Prior to joining the University of Illinois, Kramer was the general manager
+of the National Energy Research Scientific Computing Center (NERSC) at
+Lawrence Berkeley National Laboratory (LBNL). Before that he worked at
+the NASA Ames Research Center, where he was responsible for all aspects
+of operations and customer service for NASA’s Numerical Aerodynamic
+Simulator (NAS) supercomputer center and other large computational
+projects as well as starting a major Air Traffic Control Program</p>
+
+<h4 id="friday-december-9-2016">FRIDAY, DECEMBER 9, 2016</h4>
+
+<h4 id="pm--informatics-east-rm-130">4:00 PM | INFORMATICS EAST, RM. 130</h4>
+
+          </div>
+
+    </article>
+
+<!--
+    <div class="row">
+        
+    </div>
+-->
+    
+    
+    <div class="row">
+            <ul class="pager">
+             
+                    <li><a class="next" href="https://iu-ise.github.io/ISE-Colloquium-Series//messina/">&laquo; The U.S. Department of Energy Exascale Computing Project</a></li>
+              
+              
+                <li><a class="previous" href="https://iu-ise.github.io/ISE-Colloquium-Series//moldovan/">3D BIOPRINTING AS A BIO-INFORMATIONAL TECHNOLOGY &raquo;</a></li>
+              
+            </ul>
+    </div>
+ 
+    <script>
+    (function() {
+        var font3 = document.createElement('link'); 
+        font3.type = 'text/css'; 
+        font3.rel = 'stylesheet';
+        font3.href = 'https://iu-ise.github.io/ISE-Colloquium-Series//css/syntax-highlighting.css';
+        var q = document.getElementsByTagName('link')[0]; 
+        q.parentNode.insertBefore(font3, q);
+      })();
+</script>
+
+ 
+
+      </div>
+    </div>
+
+
+    
+  <footer class="container">
+<!--
+  <div class="row mt20">
+  
+  <div class="col-md-4 text-center">All rights reserved by <a target="_blank" href="http://blog.webjeda.com">webjeda</a></div>
+    
+    
+  <div class="col-md-4 text-center" >
+  
+  <a target="_blank" href="http://webjeda.com"><img src="https://img.shields.io/badge/Built%20by-webjeda-blue.svg" alt="webjeda"></a>
+  
+  </div>
+  <div class="col-md-4 text-center">
+     <a target="_blank" href=""><li class="social facebook"><img src="https://iu-ise.github.io/ISE-Colloquium-Series//images/facebook.svg" alt=""></li></a> 
+      <a target="_blank" href=""><li class="social quora"><img src="https://iu-ise.github.io/ISE-Colloquium-Series//images/quora.svg" alt=""></li></a>      
+      <a target="_blank" href=""><li class="social twitter"><img src="https://iu-ise.github.io/ISE-Colloquium-Series//images/twitter.svg" alt=""></li></a>      
+      <a target="_blank" href="https://iu-ise.github.io/ISE-Colloquium-Series/"><li class="social github"><img src="https://iu-ise.github.io/ISE-Colloquium-Series//images/github.svg" alt="https://iu-ise.github.io/ISE-Colloquium-Series/"></li></a>
+  </div>
+  
+  </div> 
+-->
+</footer>
+
+    
+<script async>
+    (function() {
+        var font = document.createElement('link'); 
+        font.type = 'text/css'; 
+        font.rel = 'stylesheet';
+        font.href = "https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|GeorgiaPro:regular";
+        var s = document.getElementsByTagName('link')[0]; 
+        s.parentNode.insertBefore(font, s);
+      })();
+</script>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://iu-ise.github.io/ISE-Colloquium-Series//js/bootstrap.min.js"></script>
+  <!-- Google Analytics Tracking code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83979019-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+
+</html>

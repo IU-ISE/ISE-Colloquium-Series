@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "PETASCALE TO EXTREME SCALES"
+categories: jekyll update
+---
+
+## Abstract
+Blue Waters, the first sustainable Petascale System and one of the largest and most open systems in the
+world, has been providing high quality service for over three years. Not only is it a great resource the enables
+unprecedented research, it is also an experimental platform for the convergence of Extreme Computing
+and Big Data. This talk will cover the experiences of the Blue Waters project and discuss the successes and
+challenges in merging widely different workflows on the same system. Finally, it will explore lessons and
+observations for next generations of Extreme Scale systems.
+
+## William Kramer
+William Kramer joins CS @ ILLINOIS as a research professor this year.
+Since 2008, he has been with the National Center for Supercomputing
+Applications (NCSA) on the University of Illinois campus, where he is
+the director and principal investigator of the Blue Waters petascale
+supercomputer project.
+Prior to joining the University of Illinois, Kramer was the general manager
+of the National Energy Research Scientific Computing Center (NERSC) at
+Lawrence Berkeley National Laboratory (LBNL). Before that he worked at
+the NASA Ames Research Center, where he was responsible for all aspects
+of operations and customer service for NASA’s Numerical Aerodynamic
+Simulator (NAS) supercomputer center and other large computational
+projects as well as starting a major Air Traffic Control Program
+
+#### FRIDAY, DECEMBER 9, 2016
+
+#### 4:00 PM | INFORMATICS EAST, RM. 130

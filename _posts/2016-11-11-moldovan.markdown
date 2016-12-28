@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "3D BIOPRINTING AS A BIO-INFORMATIONAL TECHNOLOGY"
+categories: jekyll update
+img: image-4.png
+---
+ 
+
+## Abstract
+
+As one of the most advanced forms of biofabrication, bioprinting is very information-dense, for at least
+three reasons: a) manipulates living matter, the richest existing information source; b) is very complex
+technologically, thus cannot be performed unless using computerized assistance; c) is being currently
+transferred, with all the implications, in Virtual Reality by computer modeling. I will illustrate these concepts
+with the case of ‘scaffold-free’ bioprinting as performed on the Regenova Bio 3D Printer commercialized by
+Cyfuse Biomedical K.K. This advanced technology is now available in the recently-created 3D Bioprinting
+Core facility that serves the IUPUI and IUSM researchers in Indianapolis and Bloomington, and those in
+Midwest USA
+
+
+## Nicanor I. Moldovan, PhD
+
+Director, 3D Bioprinting Core Facility Associate Research Professor, Biomechanics and Biomaterials Research Center, Departments of Biomedical Engineering & Ophthalmology, Indiana University-Purdue University Indianapolis
+nimoldov@iupui.edu | http://bioprint.iupui.edu/
+
+Dr. Nicanor I. Moldovan is an Associate Research Professor and Director of the 3D Bioprinting Core at IUPUI and Indiana University School of Medicine in Indianapolis. He has training in Biophysics, Tissue Engineering, and Cardiovascular Medicine. His current interests are in scaffold-free biofabrication, bioprinting, implant bio-compatibility, and in computer
+modeling of cells and tissues.
+
+#### FRIDAY, NOVEMBER 11, 2016
+
+#### 4:00 PM | INFORMATICS EAST, RM. 130

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INTELLIGENT SYSTEMS ENGINEERING COLLOQUIUM SERIES</title>
+    <description>Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
+</description>
+    <link>http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//</link>
+    <atom:link href="http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 27 Dec 2016 23:16:08 -0500</pubDate>
+    <lastBuildDate>Tue, 27 Dec 2016 23:16:08 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>The U.S. Department of Energy Exascale Computing Project</title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;In 2016 the U.S. Department of Energy established the Exascale Computing Project (ECP) – a joint project
+of the DOE Office of Science (DOE-SC) and the DOE National Nuclear Security Administration (NNSA) –
+that will result in a capable exascale ecosystem and prepare mission critical scientific and engineering
+applications to take advantage of that ecosystem.
+This presentation will describe the goals of the ECP, its plans for achieving them, the challenges to be
+overcome, and its current status, as well as what elements of the exascale ecosystem are outside of the
+scope of the ECP.&lt;/p&gt;
+
+&lt;h2 id=&quot;dr-paul-messina&quot;&gt;Dr. Paul Messina&lt;/h2&gt;
+&lt;p&gt;Dr. Paul Messina is Advisor to the Associate Laboratory Director and
+Laboratory on Exascale and Argonne Distinguished Fellow at Argonne
+National Laboratory.
+His current role is Project Director for the U.S. DOE Exascale Computing
+Project, a multi-laboratory project. During 2008-2015 he served as
+Director of Science for the Argonne Leadership Computing Facility and in
+2002-2004 as Distinguished Senior Computer Scientist at Argonne and
+as Advisor to the Director General at CERN (European Organization for
+Nuclear Research).
+From 1987-2002, Dr. Messina served as founding Director of California
+Institute of Technology’s (Caltech) Center for Advanced Computing Research, as Assistant Vice President
+for Scientific Computing, and as Faculty Associate for Scientific Computing, Caltech. During a leave from
+Caltech in 1999-2000, he led the DOE-NNSA Accelerated Strategic Computing Initiative.
+In his first association with Argonne from 1973-1987, he held a number of positions in the Applied Mathematics
+Division and was the founding Director of the Mathematics and Computer Science Division.&lt;/p&gt;
+
+&lt;h4 id=&quot;monday-january-9-2017&quot;&gt;MONDAY, JANUARY 9, 2017&lt;/h4&gt;
+
+&lt;h4 id=&quot;pm--university-club-imu&quot;&gt;1:00 - 2:00 PM | UNIVERSITY CLUB, IMU&lt;/h4&gt;
+</description>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//messina/</link>
+        <guid isPermaLink="true">http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//messina/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>PETASCALE TO EXTREME SCALES</title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Blue Waters, the first sustainable Petascale System and one of the largest and most open systems in the
+world, has been providing high quality service for over three years. Not only is it a great resource the enables
+unprecedented research, it is also an experimental platform for the convergence of Extreme Computing
+and Big Data. This talk will cover the experiences of the Blue Waters project and discuss the successes and
+challenges in merging widely different workflows on the same system. Finally, it will explore lessons and
+observations for next generations of Extreme Scale systems.&lt;/p&gt;
+
+&lt;h2 id=&quot;william-kramer&quot;&gt;William Kramer&lt;/h2&gt;
+&lt;p&gt;William Kramer joins CS @ ILLINOIS as a research professor this year.
+Since 2008, he has been with the National Center for Supercomputing
+Applications (NCSA) on the University of Illinois campus, where he is
+the director and principal investigator of the Blue Waters petascale
+supercomputer project.
+Prior to joining the University of Illinois, Kramer was the general manager
+of the National Energy Research Scientific Computing Center (NERSC) at
+Lawrence Berkeley National Laboratory (LBNL). Before that he worked at
+the NASA Ames Research Center, where he was responsible for all aspects
+of operations and customer service for NASA’s Numerical Aerodynamic
+Simulator (NAS) supercomputer center and other large computational
+projects as well as starting a major Air Traffic Control Program&lt;/p&gt;
+
+&lt;h4 id=&quot;friday-december-9-2016&quot;&gt;FRIDAY, DECEMBER 9, 2016&lt;/h4&gt;
+
+&lt;h4 id=&quot;pm--informatics-east-rm-130&quot;&gt;4:00 PM | INFORMATICS EAST, RM. 130&lt;/h4&gt;
+</description>
+        <pubDate>Fri, 09 Dec 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//kramer/</link>
+        <guid isPermaLink="true">http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//kramer/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>3D BIOPRINTING AS A BIO-INFORMATIONAL TECHNOLOGY</title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;As one of the most advanced forms of biofabrication, bioprinting is very information-dense, for at least
+three reasons: a) manipulates living matter, the richest existing information source; b) is very complex
+technologically, thus cannot be performed unless using computerized assistance; c) is being currently
+transferred, with all the implications, in Virtual Reality by computer modeling. I will illustrate these concepts
+with the case of ‘scaffold-free’ bioprinting as performed on the Regenova Bio 3D Printer commercialized by
+Cyfuse Biomedical K.K. This advanced technology is now available in the recently-created 3D Bioprinting
+Core facility that serves the IUPUI and IUSM researchers in Indianapolis and Bloomington, and those in
+Midwest USA&lt;/p&gt;
+
+&lt;h2 id=&quot;nicanor-i-moldovan-phd&quot;&gt;Nicanor I. Moldovan, PhD&lt;/h2&gt;
+
+&lt;p&gt;Director, 3D Bioprinting Core Facility Associate Research Professor, Biomechanics and Biomaterials Research Center, Departments of Biomedical Engineering &amp;amp; Ophthalmology, Indiana University-Purdue University Indianapolis
+nimoldov@iupui.edu | http://bioprint.iupui.edu/&lt;/p&gt;
+
+&lt;p&gt;Dr. Nicanor I. Moldovan is an Associate Research Professor and Director of the 3D Bioprinting Core at IUPUI and Indiana University School of Medicine in Indianapolis. He has training in Biophysics, Tissue Engineering, and Cardiovascular Medicine. His current interests are in scaffold-free biofabrication, bioprinting, implant bio-compatibility, and in computer
+modeling of cells and tissues.&lt;/p&gt;
+
+&lt;h4 id=&quot;friday-november-11-2016&quot;&gt;FRIDAY, NOVEMBER 11, 2016&lt;/h4&gt;
+
+&lt;h4 id=&quot;pm--informatics-east-rm-130&quot;&gt;4:00 PM | INFORMATICS EAST, RM. 130&lt;/h4&gt;
+</description>
+        <pubDate>Fri, 11 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//moldovan/</link>
+        <guid isPermaLink="true">http://localhost:4000https://iu-ise.github.io/ISE-Colloquium-Series//moldovan/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
